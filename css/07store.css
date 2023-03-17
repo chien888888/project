@@ -1,0 +1,122 @@
+body{
+    background-color: white;
+    font-family: arial;
+}
+
+.top h1{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.main1{
+    /* border: 5px solid red; */
+     display: flex;
+     justify-content: space-evenly;
+     /* margin: 50px; */
+     padding: 10px;
+     max-width: 1080px;
+     margin: 0 auto;
+     border-bottom:  1px solid black;
+     background-color: #87CEEB;
+}
+
+.main1 .img1 img{
+    width: 60%;
+    /* border: 5px solid rgb(0, 255, 64); */
+}
+
+.main1 .text1{
+    /* border: 5px solid black; */
+    padding: 50px;
+    line-height: 1.6;
+
+}
+
+.main1 .text1 h2{
+    font-weight: bold;
+}
+
+
+.main2{
+    /* border: 5px solid red; */
+     display: flex;
+     justify-content: space-evenly;
+     /* margin: 50px; */
+     padding: 10px;
+     max-width: 1080px;
+     margin: 0 auto;
+     border-bottom:  1px solid black;
+}
+
+.main2 .img2 img{
+    width: 60%;
+    /* border: 5px solid rgb(0, 255, 64); */
+}
+
+.main2 .text2{
+    /* border: 5px solid black; */
+    padding: 50px;
+    line-height: 1.6;
+
+}
+
+.main2 .text2 h2{
+    font-weight: bold;
+}
+
+.main3{
+    /* border: 5px solid red; */
+     display: flex;
+     justify-content: space-evenly;
+     /* margin: 50px; */
+     padding: 10px;
+     max-width: 1080px;
+     margin: 0 auto;
+     border-bottom:  1px solid black;
+     background-color: #87CEEB;
+
+}
+
+.main3 .img3 img{
+    width: 60%;
+    /* border: 5px solid rgb(0, 255, 64); */
+}
+
+.main3 .text3{
+    /* border: 5px solid black; */
+    padding: 50px;
+    line-height: 1.6;
+
+}
+
+.main3 .text3 h2{
+    font-weight: bold;
+}
+
+.main4{
+    /* border: 5px solid red; */
+     display: flex;
+     justify-content: space-evenly;
+     /* margin: 50px; */
+     padding: 10px;
+     max-width: 1080px;
+     margin: 0 auto;
+}
+
+.main4 .img4 img{
+    width: 60%;
+    /* border: 5px solid rgb(0, 255, 64); */
+}
+
+.main4 .text4{
+    /* border: 5px solid black; */
+     padding: 50px; 
+     line-height: 1.6;
+
+}
+
+.main4 .text4 h2{
+    font-weight: bold;
+}

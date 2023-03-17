@@ -1,0 +1,77 @@
+body {
+    background-color: white;
+    font-family: arial;
+}
+
+.top h1 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.top2 {
+    /* border: 1px solid black; */
+    /* text-align: center; */
+    /* max-width: 1200px; */
+    /* margin: 0 auto;
+    text-align: center;
+    width: 50%; */
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: space-between;
+    /* margin: 50px; */
+    padding: 10px;
+    max-width: 1080px;
+    margin: 0 auto;
+    width: 50%;
+
+
+}
+
+.top2 div.main1 label {
+    text-align: left;
+    /* width: 80%; */
+    /* display: inline-block; */
+    line-height: 1.6;
+    /* border: 1px solid red; */
+}
+
+
+
+
+.top .main1 {
+    margin-left: 20px;
+}
+
+.top2 .main1 a {
+    background-color: #7EBBF2;
+    color: white;
+    text-decoration: none;
+    /* border: 2px solid blue; */
+    display: block;
+    text-align: center;
+    /* width: 20%; */
+    /* margin: 0 auto; */
+}
+
+.main3 p {
+    margin: 0 auto;
+    /* border: 3px solid black; */
+    display: inline-flex;
+}
+
+.top2 .main2 img {
+    width: 100%;
+    margin-left: 10px;
+    /* margin-left: 130px; */
+}
+
+.main3 p {
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin: 10px;
+    margin-left: 450px;
+}
