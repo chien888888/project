@@ -30,7 +30,7 @@ nav ul {
 }
 
 nav li:hover{
-    background-color: rgb(244, 244, 0);
+    background-color: #7EBBF2;
     /* border-bottom: 3px solid red; */
 }
 
@@ -41,12 +41,6 @@ nav a {
     color: black;
     font-weight: bold;
 }
-
-
-
-
-
-
 
 
 
