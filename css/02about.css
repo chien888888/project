@@ -115,6 +115,9 @@ body {
     /* border: 2px solid blue; */
     line-height: 3;
     font-size: 1.5rem;
+}
 
-
+.map iframe {
+    margin: 0 auto;
+    border: 1px solid red;
 }

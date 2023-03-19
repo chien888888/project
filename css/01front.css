@@ -28,20 +28,22 @@ body {
      
 }
 
-.main1 h2 {
+.main1 h2 a {
      /* border: 6px solid brown; */
      background-color: #7EBBF2;
-     color: white;
+     color:white;
      width: 40%;
      text-align: center;
-     margin-bottom: 50px;
+     margin-bottom: 80px;
      padding: 10px;
+     text-decoration: none;
      
 }
 
 .main1 p{
      /* border: 2px solid yellow; */
      line-height: 3;
+     margin-top: 30px;
      
 }
 
@@ -69,18 +71,20 @@ body {
      padding: 50px;
 }
 
-.main2 h2{
+.main2 h2 a{
      background-color: #7EBBF2;
      color: white;
      width: 40%;
      text-align: center;
      margin-bottom: 50px;
      padding: 10px;
+     text-decoration: none;
 }
 
 .main2 p{
      /* border: 2px solid yellow; */
      line-height:3;
+     margin-top: 30px;
 }
 
 .main2 img {

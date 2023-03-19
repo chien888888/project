@@ -26,9 +26,9 @@ body {
     max-width: 1080px;
     margin: 0 auto;
     width: 50%;
-
-
+    background-color: #dcdcdc;
 }
+
 
 .top2 div.main1 label {
     text-align: left;
