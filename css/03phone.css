@@ -69,9 +69,15 @@ body {
 }
 
 .main3 p {
-    text-align: left;
+    /* text-align: left; */
     font-size: 1.5rem;
     line-height: 1.5;
     margin: 10px;
     margin-left: 450px;
+    margin-right: 450px;
+    /* border: 1px solid red; */
+   
+    
+    
+    
 }
