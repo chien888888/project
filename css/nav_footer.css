@@ -27,11 +27,14 @@ nav ul {
     /* 主軸 */
     justify-content: space-between;
     width: 600px;
+    
+    
 }
 
 nav li:hover {
     background-color: #7EBBF2;
     /* border-bottom: 3px solid red; */
+    height: 3rem;
 }
 
 
@@ -41,8 +44,6 @@ nav a {
     color: black;
     font-weight: bold;
 }
-
-
 
 
 

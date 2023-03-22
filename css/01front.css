@@ -54,6 +54,11 @@ body {
      
 }
 
+.main1 .text1 p a {
+     color:black
+
+}
+
 .main2 {
      /* border: 5px solid red; */
      display: flex;
@@ -63,7 +68,7 @@ body {
      max-width: 1080px;
      margin: 0 auto;
      width: 100%;
-     background-color: #FFF5EE;
+     /* background-color: #FFF5EE; */
 }    
 
 .main2 .text2 {
@@ -128,7 +133,7 @@ body {
      padding: 10px;
      max-width: 1080px;
      margin: 0 auto;
-     background-color: #FFF5EE;
+     /* background-color: #FFF5EE; */
 }
 
 .main4 .text3{
