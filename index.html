@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/nav_footer.css">
     <link rel="stylesheet" href="./css/01front.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -28,11 +29,21 @@
 
     </nav>
 
-    <div class="top">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./img/01front/1-1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./img/01front/1-6.jpg" alt=""></div>
+            <div class="swiper-slide">Slide 3</div>
+            <div class="swiper-slide">Slide 4</div>
+            <div class="swiper-slide">Slide 5</div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <!-- <div class="top">
         <div class="main">
             <img src="./img/01front/1-1.jpg" alt="">
         </div>
-    </div>
+    </div> -->
     <div class="main1">
         <div class="text1">
             <h2>
@@ -95,15 +106,22 @@
 
 
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
     <script>
-
-for (let index = 0; index < array.length; index++) {
-    const element = array[index];
-    
-}
-
-
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true,
+            },
+        });
     </script>
+
+
+
+
+
 
 </body>
 

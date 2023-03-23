@@ -100,6 +100,18 @@ body{
     /* border: 5px solid rgb(0, 255, 64); */
 }
 
+
+.img-pic{
+    width: 300px;
+    padding-right: 150px;
+}
+
+
+.img-pic img{
+    width: 400px;
+}
+
+
 .main3 .text3{
     /* border: 5px solid black; */
     padding: 50px;
