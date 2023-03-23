@@ -4,7 +4,7 @@ body {
 
 }
 .all{
-    background-color: #FFF5EE;
+    /* background-color: #FFF5EE; */
 }
 
 .top h1 {
@@ -61,6 +61,7 @@ body {
     padding: 20px;
     max-width: 1080px;
     margin: 0 auto;
+    
 }
 
 .main2 .main2-left {
@@ -70,7 +71,7 @@ body {
 }
 
 .main2 .main2-left img {
-    width: 100%;
+    width: 90%;
 }
 
 .main2 .main2-right {
@@ -99,23 +100,24 @@ body {
     max-width: 500px;
     margin: 0 auto;
     width: 100%;
-    background-color: #F5F5DC;
+    /* background-color: #F5F5DC; */
 }
 
 .con {
-     width: 80%; 
+     width: 100%; 
     /* height: 100px; */
-    background-image: url(../img/02about/4.jpg);
-    background-size: contain;
-    background-repeat: no-repeat; 
+   
 }
 
-
+.main4 .con img{
+width: 80%;
+}
 
 .main4 .test2 p {
     /* border: 2px solid blue; */
     line-height: 3;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+   margin-top: 30px;
 }
 
 .map  {

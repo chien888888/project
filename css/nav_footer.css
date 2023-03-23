@@ -12,7 +12,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px;
+ 
+    
 
 }
 
@@ -27,14 +28,16 @@ nav ul {
     /* 主軸 */
     justify-content: space-between;
     width: 600px;
+
     
     
 }
 
 nav li:hover {
-    background-color: #7EBBF2;
+    background-color: #87CDEB;
     /* border-bottom: 3px solid red; */
     height: 3rem;
+    padding: 10px;
 }
 
 
@@ -69,7 +72,8 @@ footer a {
 }
 
 footer a:hover{
-      background-color: #7EBBF2;
+      background-color: #87CDEB;
+      padding: 10px;
 }
 
 

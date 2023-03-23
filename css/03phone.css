@@ -46,7 +46,7 @@ body {
 }
 
 .top2 .main1 a {
-    background-color: #7EBBF2;
+    background-color: #87CDEB;
     color: white;
     text-decoration: none;
     /* border: 2px solid blue; */
@@ -70,7 +70,7 @@ body {
 
 .main3 p {
     /* text-align: left; */
-    font-size: 1.5rem;
+    font-size: 1.5rem;padding: 10px;
     line-height: 1.5;
     margin: 10px;
     margin-left: 450px;
