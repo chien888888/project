@@ -3,6 +3,8 @@ body {
     font-family: arial;
 }
 
+
+/* 最新消息 大標題 */
 .top h1 {
     font-size: 3rem;
     text-align: center;
@@ -10,6 +12,13 @@ body {
     margin-top: 10px;
 }
 
+
+
+
+
+
+
+/* 大圖輪播 */
 .top1 ul {
     /* border: 5px solid rgb(255, 0, 242); */
     display: flex;
@@ -31,21 +40,36 @@ body {
     padding: 20px;
 }
 
+
+
+
+
+
+
+
+/* 圖一 all */
 .main1 {
-    /* border: 5px solid rgb(22, 1, 251); */
+    /* border: 1px solid rgb(22, 1, 251); */
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     /* margin: 50px; */
     padding: 10px;
     max-width: 1080px;
     margin: 0 auto;
+
 }
 
+
+
+
+/* 圖一 圖 */
 .main1 img {
     width: 30%;
     /* border: 5px solid rgb(0, 255, 64); */
 }
 
+
+/* 圖一 內容 */
 .main1 .text1 {
     /* border: 5px solid black; */
     padding: 50px;
@@ -53,39 +77,59 @@ body {
 
 }
 
+
+
+/* 圖一 日期 */
 .main1 .text1 h2 {
     padding-bottom: 5px;
     border-bottom: 1px solid black;
 
 }
 
+
+
+/* 圖一 副標題 */
 .main1 .text1 h3 {
     margin-bottom: 15px;
     margin-top: 15px;
     font-weight: bold;
 }
 
+
+
+/* 圖一 內文 */
 .main1 .text1 p {
     font-size: 1.8rem;
     line-height: 1.5;
 }
 
+
+
+
+/* 圖二 all */
 .main2 {
     /* border: 5px solid red; */
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     /* margin: 50px; */
     padding: 10px;
     max-width: 1080px;
     margin: 0 auto;
+
 }
 
+
+
+/* 圖二 內容 */
 .main2 .text2 {
     /* border: 5px solid black; */
     padding: 50px;
     /* background-color: #FAF0E6; */
 }
 
+
+
+/* 圖二 日期 */
 .main2 .text2 h2 {
     margin-bottom: 10px;
     padding-bottom: 5px;
@@ -93,78 +137,141 @@ body {
 
 }
 
+
+
+/* 圖二 副標題 */
 .main2 .text2 h3 {
     margin-bottom: 15px;
     margin-top: 15px;
     font-weight: bold;
 }
 
+
+
+
+/* 圖二 內文 */
 .main2 .text2 p {
     font-size: 1.8rem;
     line-height: 1.5;
 }
 
+
+
+
+/* 圖二 圖 */
 .main2 img {
     width: 30%;
     /* border: 5px solid rgb(0, 255, 64); */
 }
 
+
+
+
+
+/* 圖三 all */
 .main3 {
     /* border: 5px solid red; */
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     /* margin: 50px; */
     padding: 10px;
     max-width: 1080px;
     margin: 0 auto;
+    margin-right: 120px;
+
 }
 
+
+
+
+/* 圖三 圖 */
 .main3 img {
     width: 30%;
     /* border: 5px solid rgb(0, 255, 64); */
+    /* margin-right: 100px; */
+    /* margin-right: 80px; */
+    /* padding-right: 70px; */
 }
 
+
+
+
+/* 圖三 內容 */
 .main3 .text3 {
     /* border: 5px solid black; */
     padding: 50px;
     /* background-color: #F5F5DC; */
+    margin-right: 50px;
+    /* padding-right: 30px; */
+
+
 
 
 }
 
+
+
+
+
+/* 圖三 日期 */
 .main3 .text3 h2 {
     margin-bottom: 10px;
     padding-bottom: 5px;
     border-bottom: 1px solid black;
+
 }
 
+
+
+
+
+/* 圖二 副標題 */
 .main3 .text3 h3 {
     margin-bottom: 15px;
     margin-top: 15px;
     font-weight: bold;
 }
 
+
+
+/* 圖三 內文 */
 .main3 .text3 p {
     font-size: 1.8rem;
     line-height: 1.5;
 }
 
+
+
+
+/* 圖四 all */
 .main4 {
     /* border: 5px solid red; */
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     /* margin: 50px; */
     padding: 10px;
     max-width: 1080px;
     margin: 0 auto;
+    margin-left: 200px;
+
 }
 
+
+
+
+/* 圖四 內容 */
 .main4 .text4 {
     /* border: 5px solid black; */
     padding: 50px;
     /* background-color: #FAF0E6; */
+    padding-left: 30px;
+
 }
 
+
+
+
+/* 圖四 日期 */
 .main4 .text4 h2 {
     margin-bottom: 10px;
     padding-bottom: 5px;
@@ -172,18 +279,469 @@ body {
 
 }
 
+
+
+
+/* 圖四 副標題 */
 .main4 .text4 h3 {
     margin-bottom: 15px;
     margin-top: 15px;
     font-weight: bold;
 }
 
+
+
+/* 圖三 內文 */
 .main4 .text4 p {
     font-size: 1.8rem;
     line-height: 1.5;
 }
 
+
+
+/* 圖四 圖 */
 .main4 img {
     width: 30%;
+    /* padding-left: 100px; */
+    /* margin-left: 130px; */
     /* border: 5px solid rgb(0, 255, 64); */
+}
+
+
+
+
+
+/* ------------------------------------------------ */
+/* 螢幕變成414px寬度後 */
+@media screen and (max-width:414px) {
+    body {
+        /* background-color: red; */
+    }
+
+
+    .google {
+        display: flex;
+   }
+
+
+   /* .menu-icon {
+        display: block;
+        background: #8b0f9f;
+        padding: 5px;
+        display: flex;
+        color: #fff;
+        font-family: 'Dosis';
+        justify-content: center;
+        align-items: center;
+   } */
+   .menu-icon{
+        position: relative;
+        z-index: 500;
+   }
+        
+   .navbar {
+        width: 100%;
+        display: none;
+   }
+
+   .navbar>ul {
+        flex-direction: column;
+   }
+
+   .navbar>ul>li {
+        display: block;
+        background-color: white;
+        padding: 10px;
+        text-align: center;
+        border-bottom: 1px solid black;
+        flex: 1 1 0%;
+        width: 100%;
+   }
+
+   /* 導覽列 */
+   .navtop1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        /* height: 50%; */
+        position: fixed;
+        top: 57px;
+        right: 0;
+        /* z-index: 1000; */
+        /* padding-top: px; */
+        /* margin-top: 55px; */
+        /* padding-top: 55px; */
+        display: block;
+        z-index: 2;
+        /* z-index: 2;
+        background-color: #fff;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: transform 0.4s ease-in; */
+
+   }
+
+   /* 導覽列 */
+   /* .navtop1 li {
+        opacity: 0;
+   } */
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .top1 {
+        display: none;
+    }
+
+
+
+
+    /* 圖一 all */
+    .main1 {
+        /* border: 1px solid rgb(22, 1, 251); */
+        display: flex;
+        /* justify-content: center; */
+        flex-direction: column;
+        /* margin: 50px; */
+        padding: 10px;
+        max-width: 1080px;
+        margin: 0 auto;
+        margin-top: 20px;
+
+
+    }
+
+
+    /* 圖一 圖 */
+    .main1 img {
+        width: 50%;
+        /* border: 5px solid rgb(0, 255, 64); */
+        margin: 0 auto;
+        margin-left: 100px;
+    }
+
+
+    /* 圖一 內容 */
+    .main1 .text1 {
+        /* border: 5px solid black; */
+        padding: 50px;
+        /* background-color: #F5F5DC; */
+        padding-top: 20px;
+
+    }
+
+
+
+    /* 圖一 日期 */
+    .main1 .text1 h2 {
+        padding-bottom: 5px;
+        border-bottom: 1px solid black;
+
+    }
+
+
+
+    /* 圖一 副標題 */
+    .main1 .text1 h3 {
+        margin-bottom: 15px;
+        margin-top: 15px;
+        font-weight: bold;
+        font-size: 1.8rem;
+    }
+
+
+
+
+
+    /* 圖一 內文 */
+    .main1 .text1 p {
+        font-size: 1.8rem;
+        line-height: 1.5;
+    }
+
+
+
+
+
+    /* 圖二 all */
+    .main2 {
+        /* border: 5px solid red; */
+        display: flex;
+        /* justify-content: center; */
+        flex-direction: column;
+        /* margin: 50px; */
+        padding: 10px;
+        max-width: 1080px;
+        margin: 0 auto;
+
+
+    }
+
+
+
+    /* 圖二 內容 */
+    .main2 .text2 {
+        /* border: 5px solid black; */
+        padding: 50px;
+        /* background-color: #FAF0E6; */
+        order: 1;
+        padding-top: 20px;
+
+    }
+
+
+
+    /* 圖二 日期 */
+    .main2 .text2 h2 {
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid black;
+
+    }
+
+
+
+    /* 圖二 副標題 */
+    .main2 .text2 h3 {
+        margin-bottom: 15px;
+        margin-top: 15px;
+        font-weight: bold;
+        font-size: 1.8rem;
+    }
+
+
+
+
+    /* 圖二 內文 */
+    .main2 .text2 p {
+        font-size: 1.8rem;
+        line-height: 1.5;
+    }
+
+
+
+
+    /* 圖二 圖 */
+    .main2 img {
+        width: 50%;
+        /* border: 5px solid rgb(0, 255, 64); */
+        margin: 0 auto;
+        margin-left: 100px;
+
+    }
+
+
+
+    /* 圖三 all */
+    .main3 {
+        /* border: 5px solid red; */
+        display: flex;
+        /* justify-content: center; */
+        flex-direction: column;
+        /* margin: 50px; */
+        padding: 10px;
+        max-width: 1080px;
+        margin: 0 auto;
+        margin-right: 120px;
+
+    }
+
+
+
+
+    /* 圖三 圖 */
+    .main3 img {
+        width: 70%;
+        /* border: 5px solid rgb(0, 255, 64); */
+        /* margin-right: 100px; */
+        /* margin-right: 80px; */
+        /* padding-right: 70px; */
+        margin: 0 auto;
+        margin-left: 100px;
+        padding-top: 20px;
+    }
+
+
+
+
+    /* 圖三 內容 */
+    .main3 .text3 {
+        /* border: 5px solid black; */
+        /* padding: 50px; */
+        /* background-color: #F5F5DC; */
+        /* margin-right: 50px; */
+        /* padding-right: 30px; */
+        margin: 0 auto;
+        margin-left: 10px;
+        width: 100%;
+        padding-top: 20px;
+
+
+
+
+    }
+
+
+
+
+
+    /* 圖三 日期 */
+    .main3 .text3 h2 {
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid black;
+
+    }
+
+
+
+
+
+    /* 圖二 副標題 */
+    .main3 .text3 h3 {
+        margin-bottom: 15px;
+        margin-top: 15px;
+        font-weight: bold;
+        font-size: 1.8rem;
+    }
+
+
+
+    /* 圖三 內文 */
+    .main3 .text3 p {
+        font-size: 1.8rem;
+        line-height: 1.5;
+    }
+
+
+
+
+
+    /* 圖四 all */
+    .main4 {
+        /* border: 5px solid red; */
+        display: flex;
+        /* justify-content: center; */
+        flex-direction: column;
+        /* margin: 50px; */
+        padding: 10px;
+        max-width: 1080px;
+        margin: 0 auto;
+
+
+    }
+
+
+
+
+    /* 圖四 內容 */
+    .main4 .text4 {
+        /* border: 5px solid black; */
+        padding: 50px;
+        /* background-color: #FAF0E6; */
+        order: 1;
+        padding-top: 20px;
+
+    }
+
+
+
+
+    /* 圖四 日期 */
+    .main4 .text4 h2 {
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid black;
+
+    }
+
+
+
+
+    /* 圖四 副標題 */
+    .main4 .text4 h3 {
+        margin-bottom: 15px;
+        margin-top: 15px;
+        font-weight: bold;
+        font-size: 1.8rem;
+    }
+
+
+
+    /* 圖三 內文 */
+    .main4 .text4 p {
+        font-size: 1.8rem;
+        line-height: 1.5;
+    }
+
+
+
+    /* 圖四 圖 */
+    .main4 img {
+        width: 50%;
+        /* padding-left: 100px; */
+        /* margin-left: 130px; */
+        /* border: 5px solid rgb(0, 255, 64); */
+        margin: 0 auto;
+        margin-left: 100px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

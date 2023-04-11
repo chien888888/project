@@ -1,155 +1,553 @@
-body{
+body {
     background-color: white;
     font-family: arial;
 }
 
-.top h1{
+
+/* 門市資訊 大標題 */
+.top h1 {
     font-size: 3rem;
     text-align: center;
     font-weight: bold;
     margin-top: 10px;
 }
 
-.main1:hover{
+
+
+
+/* 滑入 */
+.main1:hover {
     background-color: #87CDEB;
     /* border-bottom: 3px solid red; */
 }
 
-.main1{
+
+
+/* 圖一 all */
+.main1 {
     /* border: 5px solid red; */
-     display: flex;
-     justify-content: center;
-     /* margin: 50px; */
-     padding: 10px;
-     max-width: 1080px;
-     margin: 0 auto;
-     /* border: 1px solid red; */
-     
-     
-    
+    display: flex;
+    justify-content: center;
+    /* margin: 50px; */
+    padding: 30px;
+    max-width: 1080px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+
 }
 
-.main1 .img1 img{
+
+
+
+
+.main1 .img1 img {
     width: 60%;
     /* border: 5px solid rgb(0, 255, 64); */
 }
 
-.main1 .text1{
+
+
+/*  圖一 內容 */
+.main1 .text1 {
     /* border: 5px solid black; */
     padding: 50px;
     line-height: 1.6;
 
 }
 
-.main1 .text1 h2{
+
+
+/* 圖一 門市名 */
+.main1 .text1 h2 {
     font-weight: bold;
 }
 
 
-.main2:hover:hover{
+
+
+/* 滑入 */
+.main2:hover {
     background-color: #87CDEB;
     /* border-bottom: 3px solid red; */
 }
-.main2{
+
+
+/* 圖二 all */
+.main2 {
     /* border: 5px solid red; */
-     display: flex;
-     justify-content: center;
-     /* margin: 50px; */
-     padding: 10px;
-     max-width: 1080px;
-     margin: 0 auto;
-   
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    max-width: 1080px;
+    margin: 0 auto;
+
 }
 
-.main2 .img2 img{
+.main2 .img2 img {
     width: 60%;
     /* border: 5px solid rgb(0, 255, 64); */
 }
 
-.main2 .text2{
+
+
+/*  圖二 內容 */
+.main2 .text2 {
     /* border: 5px solid black; */
     padding: 50px;
     line-height: 1.6;
 
 }
 
-.main2 .text2 h2{
+
+/* 圖二 門市名 */
+.main2 .text2 h2 {
     font-weight: bold;
 }
 
 
-.main3:hover:hover{
+
+
+/* 滑入 */
+.main3:hover {
     background-color: #87CDEB;
     /* border-bottom: 3px solid red; */
 }
-.main3{
+
+
+/* 圖三 all */
+.main3 {
     /* border: 5px solid red; */
-     display: flex;
-     justify-content: center;
-     /* margin: 50px; */
-     padding: 10px;
-     max-width: 1080px;
-     margin: 0 auto;
-    
-     
+    display: flex;
+    justify-content: center;
+    /* margin: 50px; */
+    padding: 30px;
+    max-width: 1080px;
+    margin: 0 auto;
 
 }
 
-.main3 .img3 img{
+
+
+
+.main3 .img3 img {
     width: 60%;
     /* border: 5px solid rgb(0, 255, 64); */
 }
 
 
-.img-pic{
-    width: 300px;
-    padding-right: 150px;
-}
 
 
-.img-pic img{
-    width: 400px;
-}
 
 
-.main3 .text3{
+/*  圖三 內容 */
+.main3 .text3 {
     /* border: 5px solid black; */
     padding: 50px;
     line-height: 1.6;
 
 }
 
-.main3 .text3 h2{
+
+/* 圖三 門市名 */
+.main3 .text3 h2 {
     font-weight: bold;
 }
 
 
-.main4:hover:hover{
+
+/* 滑入 */
+.main4:hover {
     background-color: #87CDEB;
     /* border-bottom: 3px solid red; */
 }
-.main4{
+
+
+/* 圖四 all */
+.main4 {
     /* border: 5px solid red; */
-     display: flex;
-     justify-content: center;
-     /* margin: 50px; */
-     padding: 10px;
-     max-width: 1080px;
-     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    /* margin: 50px; */
+    padding: 30px;
+    max-width: 1080px;
+    margin: 0 auto;
 }
 
-.main4 .img4 img{
+
+
+.main4 .img4 img {
     width: 60%;
     /* border: 5px solid rgb(0, 255, 64); */
 }
 
-.main4 .text4{
+
+
+/*  圖四 內容 */
+.main4 .text4 {
     /* border: 5px solid black; */
-     padding: 50px; 
-     line-height: 1.6;
+    padding: 50px;
+    line-height: 1.6;
 
 }
 
-.main4 .text4 h2{
+
+
+/* 圖四 門市名 */
+.main4 .text4 h2 {
     font-weight: bold;
+}
+
+
+
+
+
+
+.img-pic {
+    width: 50%;
+    /* padding-right: 150px; */
+}
+
+
+.img-pic img {
+    width: 80%;
+}
+
+
+
+/* google icon */
+
+.google {
+    display: none;
+}
+
+
+
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+
+    /* display: none; */
+}
+
+
+
+
+
+
+
+/* ----------------------------------------------- */
+/* 螢幕變成414px寬度後 */
+@media screen and (max-width:414px) {
+    body {
+        /* background-color: red; */
+    }
+
+
+    .google {
+        display: flex;
+   }
+
+
+   /* .menu-icon {
+        display: block;
+        background: #8b0f9f;
+        padding: 5px;
+        display: flex;
+        color: #fff;
+        font-family: 'Dosis';
+        justify-content: center;
+        align-items: center;
+   } */
+   .menu-icon{
+        position: relative;
+        z-index: 500;
+   }
+        
+   .navbar {
+        width: 100%;
+        display: none;
+   }
+
+   .navbar>ul {
+        flex-direction: column;
+   }
+
+   .navbar>ul>li {
+        display: block;
+        background-color: white;
+        padding: 10px;
+        text-align: center;
+        border-bottom: 1px solid black;
+        flex: 1 1 0%;
+        width: 100%;
+   }
+
+   /* 導覽列 */
+   .navtop1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        /* height: 50%; */
+        position: fixed;
+        top: 57px;
+        right: 0;
+        /* z-index: 1000; */
+        /* padding-top: px; */
+        /* margin-top: 55px; */
+        /* padding-top: 55px; */
+        display: block;
+        z-index: 2;
+        /* z-index: 2;
+        background-color: #fff;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: transform 0.4s ease-in; */
+
+   }
+
+   /* 導覽列 */
+   /* .navtop1 li {
+        opacity: 0;
+   } */
+
+
+
+  
+
+
+
+
+
+
+
+
+
+    /* 門市資訊 大標題 */
+    .top h1 {
+        font-size: 3rem;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 10px;
+        /* border: 1px solid red; */
+        margin-left: 10px;
+    }
+
+
+    /* 圖一 all */
+    .main1 {
+        /* border: 1px solid red; */
+        display: block;
+        /* justify-content: center; */
+        /* margin: 50px; */
+        /* padding: 30px; */
+        max-width: 1080px;
+        margin: 0 auto;
+        width: 80%;
+
+
+
+
+    }
+
+
+
+    /*  圖一 內容 */
+    .main1 div.text1 {
+        /* border: 1px solid black; */
+        line-height: 1.6;
+        padding-top: 30px;
+        border-bottom: 1px solid #000;
+        margin: 0 auto;
+        width: 200px;
+
+    }
+
+
+
+    /* 圖一 門市名 */
+    .main1 .text1 h2 {
+        font-weight: bold;
+        margin: 0 auto;
+        /* padding-left: 100px; */
+        font-size: 1.8rem;
+        width: 200px;
+
+
+    }
+
+
+
+    .main1 .text1 p {
+        /* padding-left: 100px; */
+        width: 200px;
+        margin: 0;
+        font-size: 1.4rem;
+    }
+
+
+
+
+
+
+    /* 圖二 all */
+    .main2 {
+        /* border: 1px solid red; */
+        display: block;
+        /* justify-content: center; */
+        /* padding: 30px; */
+        max-width: 1080px;
+        margin: 0 auto;
+        /* margin-left: 60px; */
+        /* padding-left: 30px; */
+        width: 80%;
+
+    }
+
+
+
+    /*  圖二 內容 */
+    .main2 .text2 {
+        /* border: 5px solid black; */
+        padding: 60px;
+        line-height: 1.6;
+        padding-top: 30px;
+        border-bottom: 1px solid #000;
+        margin: 0 auto;
+        width: 200px;
+
+
+
+    }
+
+
+    /* 圖二 門市名 */
+    .main2 .text2 h2 {
+        font-weight: bold;
+        margin: 0 auto;
+        font-size: 1.8rem;
+        width: 200px;
+    }
+
+    .main2 .text2 p {
+        width: 200px;
+        margin: 0;
+        font-size: 1.4rem;
+
+    }
+
+
+
+
+    /* 圖三 all */
+    .main3 {
+        /* border: 5px solid red; */
+        display: block;
+        /* justify-content: center; */
+        /* margin: 50px; */
+        /* padding: 30px; */
+        max-width: 1080px;
+        margin: 0 auto;
+        width: 80%;
+
+    }
+
+
+
+    /*  圖三 內容 */
+    .main3 .text3 {
+        /* border: 5px solid black; */
+        line-height: 1.6;
+        padding-top: 30px;
+        border-bottom: 1px solid #000;
+        margin: 0 auto;
+        width: 200px;
+
+    }
+
+
+    /* 圖三 門市名 */
+    .main3 .text3 h2 {
+        font-weight: bold;
+        margin: 0 auto;
+        font-size: 1.8rem;
+        width: 200px;
+    }
+
+
+
+    .main3 .text3 p {
+        width: 200px;
+        margin: 0;
+        font-size: 1.4rem; 
+
+    }
+
+
+
+
+    /* 圖四 all */
+    .main4 {
+        /* border: 5px solid red; */
+        display: block;
+        /* justify-content: center; */
+        /* margin: 50px; */
+        /* padding: 30px; */
+        max-width: 1080px;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+
+
+    /*  圖四 內容 */
+    .main4 .text4 {
+        /* border: 5px solid black; */
+        line-height: 1.6;
+        padding-top: 30px;
+        margin: 0 auto;
+        width: 200px;
+
+    }
+
+
+
+    /* 圖四 門市名 */
+    .main4 .text4 h2 {
+        font-weight: bold;
+        margin: 0 auto;
+        font-size: 1.8rem;
+        width: 200px;
+
+
+    }
+
+
+    .main4 .text4 p {
+        width: 200px;
+        margin: 0;
+        font-size: 1.4rem;  
+
+    }
+
+
+
+
+
+
+    div.img-pic img {
+        margin: 0 auto;
+        padding-left: 10px;
+        width: 200%;
+        padding-right: 0;
+    }
+
+
+    img {
+        /* width: 100%; */
+    }
+
+
+
+
 }

@@ -9,68 +9,171 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/nav_footer.css">
     <link rel="stylesheet" href="css/06booking.css">
+
+  <!-- icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+  integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- google 漢堡線-->
+  <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+
+<!-- icon  -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+
+
+
 </head>
+
+
+
+
 
 <body>
 
-    <nav> 
+
+    <!-- 頁首 -->
+    <nav>
+
+        <!-- 左上角logo -->
         <a href="index.html"><img src="./img/nav_footer/logo-3.png" alt=""></a>
 
-        <ul>
-            <li><a href="index.html">首頁</a></li>
-            <li> <a href="about.html">關於我們</a></li>
-            <li><a href="phone.html">聯絡我們</a></li>
-            <li><a href="news.html">最新消息</a></li>
-            <li><a href="menu.html">菜單介紹</a></li>
-            <li><a href="booking.html">線上訂位</a></li>
-            <li><a href="store.html">門市資訊</a></li>
-        </ul>
+
+
+        <!-- 導覽列 -->
+        <div class="navtop">
+
+            <div class="menu-icon">
+                <i class="bi bi-list"></i>
+            </div>
+            <nav class="navbar">
+                <ul class="navtop1">
+                    <li><a href="index.html">首頁</a></li>
+                    <li><a href="about.html">關於我們</a></li>
+                    <li><a href="phone.html">聯絡我們</a></li>
+                    <li><a href="news.html">最新消息</a></li>
+                    <li><a href="menu.html">菜單介紹</a></li>
+                    <li><a href="booking.html">線上訂位</a></li>
+                    <li><a href="store.html">門市資訊</a></li>
+                </ul>
+            </nav>
+
+
+        </div>
 
     </nav>
+
+
+
+    <!-- 線上訂位 大標題 -->
     <div class="top">
         <h1>線上訂位</h1>
     </div>
+
+
+    <!-- 大圖輪播 -->
     <div class="main">
         <img src="./img/06booking/8-1.jpg" alt="">
     </div>
+
+
+    <!-- 線上訂位 all -->
     <div class="main2">
+
+        <!-- 左邊表格 -->
         <div class="text1">
-            <label for="姓名">姓名</label>
+            <label for="姓名">姓名:</label>
             <br>
-            <input type="text" id="姓名">
+            <input type="text" id="姓名" placeholder="請輸入姓名">
             <br>
-            <label for="電話">電話</label>
+            <label for="電話">電話:</label>
             <br>
-            <input type="text" id="電話">
+            <input type="text" id="電話"placeholder="請輸入電話">
             <br>
-            <label for="人數">人數</label>
+            <label name="people"placeholder="人數">人數：
+                <br>
+                <select name="people">
+                    <option>1 人</option>
+                    <option>2 人</option>
+                    <option>3 人</option>
+                    <option>4 人</option>
+                    <option>5 人</option>
+                    <option>6 人</option>
+                    <option>7 人</option>
+                    <option>8 人</option>
+                </select>
+            </label>
             <br>
-            <input type="text" id="人數">
+            <label for="訂位日期">訂位日期:</label>
             <br>
-            <label for="訂位日期">訂位日期</label>
+            <input type="date" id="訂位日期"placeholder="訂位日期">
             <br>
-            <input type="text" id="訂位日期">
+            <label name="ordertime">訂位時間：
+                <br>
+                <select class="custom_select">
+                    <option>10:00am</option>
+                    <option>11:00am</option>
+                    <option>12:00pm</option>
+                    <option>13:00pm</option>
+                    <option>14:00pm</option>
+                    <option>15:00pm</option>
+                    <option>16:00pm</option>
+                    <option>17:00pm</option>
+                    <option>18:00pm</option>
+                    <option>19:00pm</option>
+                    <option>20:00pm</option>
+                </select>
+            </label>
             <br>
-            <label for="訂位時間">訂位時間</label>
+            <label>訂位目的：</label>
             <br>
-            <input type="date" id="訂位時間">
+            <label class="reason" name="orderreason">
+                <input type="radio" name="orderreason" value="約會">約會
+            </label>
+            <label class="reason" name="orderreason">
+                <input type="radio" name="orderreason" value="朋友聚餐">朋友聚餐
+            </label>
+            <label class="reason" name="orderreason">
+                <input type="radio" name="orderreason" value="慶生">慶生
+            </label>
+            <label class="reason" name="orderreason">
+                <input type="radio" name="orderreason" value="商務會議">商務會議
+            </label>
             <br>
-            <label for="其他備註">其他備註</label>
+            <label for="其他備註">其他備註:</label>
             <br>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <textarea name="" id="" cols="30" rows="10" placeholder="請輸入內容"></textarea>
             <br>
             <a href="#">送出</a>
         </div>
-        <div class="text2">
-            <h3>訂位注意事項</h3>
-            <p>1.營業時間為10:00am-17:00pm <br>
-                2.預先訂位用餐時間為2小時<br>
-                3.如需取消訂位或訂位人數超過5人,<br>
-                請來電與門市人員確認。<br>
-                4.以上事項以外,如有特殊需求,請註明於備註,謝謝!</p>
-            <img src="./img/06booking/7-1.jpg" alt="">
-        </div>
     </div>
+
+
+
+
+    <!-- 注意事項 -->
+    <div class="text2">
+        <p>
+        <br>
+        <h3>訂位注意事項:</h3><br>
+        <br>
+        1.營業時間為10:00am-17:00pm <br>
+        2.預先訂位用餐時間為2小時<br>
+        3.如需取消訂位或訂位人數超過5人,<br>
+        請來電與門市人員確認。<br>
+        4.以上事項以外,如有特殊需求,請註明於備註,謝謝!</p>
+
+        <!-- 注意事項 圖 -->
+        <img src="./img/06booking/7-1.jpg" alt="">
+    </div>
+
+
+
+    <!-- 頁尾 -->
     <footer>
         <img src="./img/nav_footer/logo-3.png" alt="">
         <a href="./index.html">首頁</a>
@@ -80,9 +183,41 @@
         <a href="./menu.html">菜單介紹</a>
         <a href="./booking.html">線上訂位</a>
         <a href="./store.html">門市資訊</a>
-
-        <p></p>
     </footer>
+
+
+
+
+
+    <!-- 老師教的 ham -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+        $(function () {
+            // $('.navtop1').slideUp();
+            let is_open = 0;
+            //一開始讓選單縮上去
+
+            //點擊menu後slidedown
+            $('.menu-icon').click(function () {
+
+
+                if (is_open == 0) {
+                    // $('.navbar').css("display","block");
+                    $('.navtop1').slideDown();
+                    is_open = 1;
+                    console.log(is_open);
+                } else {
+                    $('.navtop1').slideUp();
+                    is_open = 0;
+                    console.log(is_open);
+                }
+
+                $('.navbar').slideToggle();
+            })
+        })
+    </script>
+
+
 
 </body>
 

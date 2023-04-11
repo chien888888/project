@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首頁</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/nav_footer.css">
+    <link rel="stylesheet" href="./css/01front.css">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <style>
+        /* 手機 */
+        @media screen and (max-width: 500px) {
+
+            .navtop {
+                display: none;
+            }
+
+            ul{
+                position: absolute;
+            }
+
+            .navtop>ul {
+                flex-direction: column;
+            }
+
+
+            
+
+
+            .navtop{
+                width: 100%;
+                display: none;
+            }
+            .navtop>ul{
+                flex-direction: column;
+            }
+            .navtop>ul>li{
+                display: block;
+                background-color: rgb(238, 188, 96);
+                padding: 10px;
+                text-align: center;
+                border-bottom: 1px solid #333;
+                flex: 1 1 0%;
+            }
+
+
+
+
+
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- 頁首 -->
+    <nav>
+        <a href="index.html"><img src="./img/nav_footer/logo-3.png" alt=""></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <div><i class="fa-solid fa-bars"></i></div> -->
+
+
+
+        <div class="icon">menu</div>
+        <div class="navtop">
+            <ul>
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="about.html">關於我們</a></li>
+                <li><a href="phone.html">聯絡我們</a></li>
+                <li><a href="news.html">最新消息</a></li>
+                <li><a href="menu.html">菜單介紹</a></li>
+                <li><a href="booking.html">線上訂位</a></li>
+                <li><a href="store.html">門市資訊</a></li>
+            </ul>
+        </div>
+
+
+
+        <!-- <div class="navtop">
+            <ul class="navtop1">
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="about.html">關於我們</a></li>
+                <li><a href="phone.html">聯絡我們</a></li>
+                <li><a href="news.html">最新消息</a></li>
+                <li><a href="menu.html">菜單介紹</a></li>
+                <li><a href="booking.html">線上訂位</a></li>
+                <li><a href="store.html">門市資訊</a></li>
+            </ul>
+        </div> -->
+
+
+
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./img/01front/1-1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./img/01front/1-8.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./img/01front/1-7.jpg" alt=""></div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- <div class="top">
+        <div class="main">
+            <img src="./img/01front/1-1.jpg" alt="">
+        </div>
+    </div> -->
+    <!-- 圖一 最新消息 -->
+    <div class="main1">
+        <div class="text1">
+            <h2>
+                <a href="./news.html">最新消息</a>
+            </h2>
+            <p>
+                <a href="./news.html">03.01 享預付折抵優惠加贈指定小食乙份</a><br>
+                <a href="./news.html">03.05 3/20-3/23 三月小確幸1餐1飲享8折</a><br>
+                <a href="./news.html">03.10 2023年四月連假不營業通知</a><br>
+                <a href="./news.html">03.20 2023年新店拓展</a>
+            </p>
+        </div>
+
+        <img class="pic" data-aos="fade-down" src="./img/01front/2-1.jpg" alt="">
+    </div>
+    <!-- 圖二 關於我們 -->
+    <div class="main2">
+        <img src="./img/01front/3.jpg" alt="">
+        <div class="text2">
+            <h2>
+                <a href="./about.html">關於我們</a>
+            </h2>
+            <p>感受陽光和海風，享受一杯熱氣騰騰的咖啡<br>
+                在這裡，你可以在沙灘品嘗新鮮的烘焙咖啡<br>
+                聽著海浪聲，放鬆身心。<br>
+                陪伴你們度過生命的每一刻<br>
+                與你們一同分享酸甜苦辣的故事。<br>
+            </p>
+        </div>
+
+
+        <!-- 圖三 -->
+    </div>
+    <div class="main3">
+        <div class="main3-left">
+            <img src="./img/01front/4-1.jpg" alt="">
+        </div>
+        <div class="main3-right">
+            <img src="./img/01front/5-1.jpg" alt="">
+        </div>
+    </div>
+    <div class="main4">
+        <img src="./img/01front/6.jpg" alt="">
+        <div class="text3">
+            <h2>旅行的意義</h2>
+            <p>一路所遇所見<br>
+                都成為人生旅途中的養分<br>
+                一杯咖啡 、一片海洋<br>
+                夕陽西夏帶你開啟全新的旅程。
+            </p>
+        </div>
+    </div>
+    <!-- 頁尾 -->
+    <footer>
+        <img src="./img/nav_footer/logo-3.png" alt="">
+        <a href="./index.html">首頁</a>
+        <a href="./about.html">關於我們</a></li>
+        <a href="./phone.html">聯絡我們</a>
+        <a href="./news.html">最新消息</a>
+        <a href="./booking.html">線上訂位</a>
+        <a href="./store.html">門市資訊</a>
+    </footer>
+
+
+
+    <!-- 漢堡 -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true,
+            },
+        });
+    </script>
+    <!-- AOS -->
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        const hamBar = document.querySelector("a.hamBar");
+        const sideInner = document.querySelector(".sideInner");
+        hamBar.addEventListener("click", function (e) {
+            e.preventDefault();
+            const nav = document.querySelector("section.nav");
+            nav.classList.toggle("nav_show");
+
+            if (sideInner.style.display === 'none') {
+                sideInner.style.display = 'block'
+            } else {
+                sideInner.style.display = 'none'
+            }
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ham -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+        $(function () {
+            let is_open = 0;
+            //一開始讓選單縮上去
+            $('.navtop').slideUp();
+            //點擊menu後slidedown
+            $('.icon').click(function () {
+
+                $('.navtop').slideToggle();
+
+            })
+        })
+    </script>
+
+
+
+
+
+</body>
+
+</html>

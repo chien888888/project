@@ -8,52 +8,33 @@ body {
      height: 100%;
 }
 
-.swiper {
-     width: 100%;
-     height: 100%;
-}
-
-.swiper-slide {
-     text-align: center;
-     font-size: 18px;
-     background: #fff;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-}
-
-.swiper-slide img {
-     display: block;
-     width: 100%;
-     height: 100%;
-     object-fit: cover;
-}
 
 
-.top img {
-     width: 100%;
 
-}
 
+
+/* 圖一 最新消息 父層 */
 .main1 {
      /* border: 5px solid red; */
      display: flex;
      justify-content: space-evenly;
      /* margin: 50px; */
-     padding: 10px;
+     /* padding: 10px; */
      max-width: 1080px;
      margin: 0 auto;
      width: 100%;
 }
 
 
-
+/* 圖一 最新消息 子層 */
 .main1 .text1 {
      /* border: 5px solid#7EBBF2; */
      padding: 50px;
 
 }
 
+
+/* 圖一 最新消息 標題 */
 .main1 h2 a {
      /* border: 6px solid brown; */
      background-color: #87CDEB;
@@ -66,6 +47,8 @@ body {
 
 }
 
+
+/* 圖一 最新消息 內容 */
 .main1 p {
      /* border: 2px solid yellow; */
      line-height: 3;
@@ -73,6 +56,8 @@ body {
 
 }
 
+
+/* 圖一 最新消息 圖 */
 .main1 img {
      /* width: 350px; */
      width: 40%;
@@ -80,27 +65,43 @@ body {
 
 }
 
+
+
+/* 圖一 最新消息 內容 a連結 */
 .main1 .text1 p a {
      color: black
 }
 
+
+
+
+
+
+
+/* 圖二 關於我們 父層 */
 .main2 {
      /* border: 5px solid red; */
      display: flex;
      justify-content: space-evenly;
      /* margin: 50px; */
-     padding: 10px;
+     /* padding: 10px; */
      max-width: 1080px;
      margin: 0 auto;
      width: 100%;
      /* background-color: #FFF5EE; */
 }
 
+
+
+/* 圖二 關於我們 子層 */
 .main2 .text2 {
      /* border: 5px solid#7EBBF2; */
      padding: 50px;
 }
 
+
+
+/* 圖二 關於我們 標題 */
 .main2 h2 a {
      background-color: #87CDEB;
      color: white;
@@ -111,18 +112,30 @@ body {
      text-decoration: none;
 }
 
+
+
+/* 圖二 關於我們 內容 */
 .main2 p {
      /* border: 2px solid yellow; */
      line-height: 3;
      margin-top: 30px;
 }
 
+
+
+/* 圖二 關於我們 圖 */
 .main2 img {
      width: 35%;
      /* border: 5px solid rgb(0, 255, 64); */
 
 }
 
+
+
+
+
+
+/* 圖三 左右二張圖 父層 */
 .main3 {
      display: flex;
      justify-content: center;
@@ -132,25 +145,38 @@ body {
      margin: 0 auto;
 }
 
+
+/* 圖三 左右二張圖 左圖 子層 */
 .main3 .main3-left {
      width: 30%;
      margin-right: 1rem;
 }
 
+
+/* 圖三 左右二張圖 左圖 */
 .main3 .main3-left img {
      width: 100%;
 
 }
 
+
+
+/* 圖三 左右二張圖 右圖 子層 */
 .main3 .main3-right {
      width: 30%;
 }
 
+
+/* 圖三 左右二張圖 右圖 */
 .main3 .main3-right img {
      width: 100%;
 }
 
 
+
+
+
+/* 圖四 文字內容 父層 */
 .main4 {
      /* border: 5px solid red; */
      display: flex;
@@ -161,13 +187,20 @@ body {
      max-width: 1080px;
      margin: 0 auto;
      /* background-color: #FFF5EE; */
+     width: 60%;
+
 }
 
+
+
+/* 圖四 文字內容 子層 */
 .main4 .text3 {
      /* border: 5px solid#7EBBF2; */
      padding: 50px;
 }
 
+
+/* 圖四 文字內容 標題 */
 .main4 h2 {
      font-weight: bold;
      color: black;
@@ -177,16 +210,452 @@ body {
 
 }
 
+/* 圖四 文字內容 內容 */
 .main4 p {
      /* border: 2px solid yellow; */
      line-height: 1.8;
 }
 
 
-.main4 {
-     width: 60%;
-}
 
+/* 圖四 文字內容 圖 */
 .main4 img {
      width: 30%;
+}
+
+
+
+
+
+
+
+/* .navtop {
+     opacity: 1;
+} */
+
+
+
+/* 三條線 */
+i {
+     /* border: 5px solid black; */
+}
+
+
+
+
+
+/* google icon */
+
+.google {
+     display: none;
+}
+
+
+
+.material-symbols-outlined {
+     font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+
+     /* display: none; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+swiper-container {
+     width: 98.5vw;
+     height: 70vh;
+}
+
+swiper-slide {
+     text-align: center;
+     font-size: 18px;
+     background: #fff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+swiper-slide img {
+     display: block;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     background-image: url();
+}
+
+
+
+.mySwiper .ocean {
+     position: relative;
+}
+
+
+.mySwiper .ocean span {
+     font-family: "Noto Serif TC";
+     font-weight: 200;
+     position: absolute;
+     color: white;
+     font-size: 3rem;
+     top: 200px;
+     right: 100px;
+     text-shadow: 2px 2px 10px black;
+     text-shadow: hoff voff blur #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------- */
+
+/* 螢幕變成414px寬度後  */
+@media screen and (max-width:414px) {
+
+     body {}
+
+
+     .google {
+          display: flex;
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     /* 導覽列 */
+     .navtop1 {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          width: 100%;
+          /* height: 50%; */
+          position: fixed;
+          top: 57px;
+          right: 0;
+          /* z-index: 1000; */
+          /* padding-top: px; */
+          /* margin-top: 55px; */
+          /* padding-top: 55px; */
+          display: block;
+          z-index: 2;
+          /* z-index: 2;
+          background-color: #fff;
+          flex-direction: column;
+          transform: translateX(100%);
+          transition: transform 0.4s ease-in; */
+
+     }
+
+     /* 導覽列 */
+     /* .navtop1 li {
+          opacity: 0;
+     } */
+
+
+
+
+
+
+
+     /* 大圖輪播 */
+     .swiper-wrapper img {
+          height: 300px;
+     }
+
+     /* 左上角LOGO */
+     nav img {
+          width: 50px;
+     }
+
+
+
+
+     /* 圖一 最新消息 圖 */
+     .main1 .pic {
+          margin-top: 15px;
+
+     }
+
+
+
+     /* 圖一 最新消息 子層 */
+     .main1 .text1 {
+          padding: 10px;
+          padding-right: 0;
+          margin-right: 5px;
+          margin-top: 10px;
+     }
+
+
+     /* 圖一 最新消息 標題 */
+     .main1 h2 a {
+
+          background-color: #87CDEB;
+          color: white;
+          width: 20%;
+          text-align: center;
+          margin-bottom: 80px;
+          padding: 10px;
+          text-decoration: none;
+          font-size: .5rem;
+          margin-right: 50px;
+          margin-top: 10px;
+     }
+
+
+     /* 圖一 最新消息 內容 */
+     .main1 p {
+          line-height: 2;
+          margin-top: 30px;
+          font-size: .5rem;
+     }
+
+
+     /* 圖二 關於我們 子層 */
+     .main2 .text2 {
+          padding: 20px;
+          padding-top: 40px;
+          padding-bottom: 10px;
+          font-size: .5rem;
+     }
+
+
+     /* 圖二 關於我們 圖 */
+     .main2 img {
+          width: 40%;
+          height: 80%;
+          margin: 30px;
+          margin-left: 15px;
+     }
+
+
+     /* 圖二 關於我們 標題 */
+     .main2 h2 a {
+          margin-right: 20px;
+     }
+
+
+
+     /* 圖二 關於我們 內容 */
+     .main2 p {
+          line-height: 1.5;
+          margin-top: 30px;
+          font-size: 12px;
+          width: 150px;
+     }
+
+
+
+     /* 圖三 左右二張圖 父層 */
+     .main3 {
+          margin-top: -20px;
+     }
+
+
+
+     /* 圖三 左右二張圖 左圖 子層 */
+     .main3 .main3-left {
+          width: 40%;
+          margin-right: 1rem;
+     }
+
+
+
+     /* 圖三 左右二張圖 左圖 */
+     .main3 .main3-left img {
+          width: 100%;
+
+     }
+
+
+
+     /* 圖三 左右二張圖 右圖 子層 */
+     .main3 .main3-right {
+          width: 40%;
+     }
+
+
+
+     /* 圖三 左右二張圖 右圖 */
+     .main3 .main3-right img {
+          width: 100%;
+     }
+
+
+
+
+     /* 圖四 文字內容 父層 */
+     .main4 {}
+
+
+
+
+
+
+     /* 圖四 文字內容 子層 */
+     .main4 .text3 {
+          padding: 10px;
+     }
+
+
+
+
+     /* 圖四 文字內容 標題 */
+     .main4 .text3 h2 {
+          font-weight: bold;
+          color: black;
+          width: 70%;
+          margin-bottom: 20px;
+          font-size: .5rem;
+     }
+
+
+
+
+
+     /* 圖四 文字內容 內容 */
+     .main4 p {
+          line-height: 1;
+          font-size: 0.5rem;
+     }
+
+
+
+     /* 圖四 文字內容 圖 */
+     .main4 img {
+
+          width: 30%;
+          height: 100%;
+
+     }
+
+
+
+     /* 圖四 文字內容 標題 */
+     .main4 .text3 h2 {
+          font-size: 0.5rem;
+          padding-left: 10px;
+     }
+
+
+
+
+     /* 圖四 文字內容 內容 */
+     .main4 .text3 p {
+          font-size: 0.5rem;
+          padding-left: 10px;
+     }
+
+
+
+
+
+
+
+
+
+
+
+     swiper-container {
+          width: 98.5vw;
+          height: 85vh;
+     }
+
+     swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+     }
+
+     swiper-slide img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          background-image: url();
+     }
+
+
+
+
+
+
+
+
+
+
+     .mySwiper .ocean {
+          position: relative;
+     }
+     
+     
+     .mySwiper .ocean pre {
+          position: absolute;
+          color: white;
+          top: 500px;
+          right: 200px;
+          display: none;
+     }
+     
+
+
 }

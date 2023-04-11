@@ -1,5 +1,5 @@
-:root {
-    font-size: 10px;
+html {
+    font-size: 62.5%;
 }
 
 body {
@@ -12,33 +12,51 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
- 
-    
 
+
+
+}
+
+/* icon 網頁版 */
+i {
+    opacity: 0;
 }
 
 nav img {
     width: 100px;
 }
 
-nav ul {
+.navtop1 {
     display: flex;
     /* 側軸 */
     align-items: center;
     /* 主軸 */
     justify-content: space-between;
     width: 600px;
-
-    
-    
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (min-width:1200px) {  */
 nav li:hover {
     background-color: #87CDEB;
     /* border-bottom: 3px solid red; */
     height: 3rem;
     padding: 10px;
 }
+
 
 
 
@@ -50,16 +68,12 @@ nav a {
 
 
 
-
-
-
-
 footer {
     border-top: 1.5px solid black;
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
-    
+
 }
 
 footer a {
@@ -71,9 +85,9 @@ footer a {
 
 }
 
-footer a:hover{
-      background-color: #87CDEB;
-      padding: 10px;
+footer a:hover {
+    background-color: #87CDEB;
+    padding: 10px;
 }
 
 
@@ -90,5 +104,174 @@ footer p {
     text-align: center;
     margin-top: 60px;
     /* border: 1px solid black; */
+
+}
+
+
+/* 414導覽列 PC不需要 */
+.menu-icon img,
+.nav_top414 {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================================================================== */
+/* ========================================================================================== */
+
+
+
+
+/* 螢幕變成414px寬度後 */
+@media screen and (max-width:414px) {
+
+    /* icon RWD版 */
+    i {
+        display: none;
+    }
+
+    .menu-icon img,
+    .nav_top414 {
+        display: block;
+    }
+
+
+    /* 網頁版導覽 */
+    .navbar .navtop1 {
+        display: none;
+    }
+
+
+
+
+
+    .menu-icon {
+        background: #eb8d35;
+        padding: 5px;
+        display: flex;
+        color: #fff;
+        font-family: 'Dosis';
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        font-size: 1.5rem;
+        line-height: 3;
+        top: 0;
+        width: 50px;
+        z-index: 2000000;
+        right: 0;
+    }
+
+
+    .menu-icon img {
+        width: 45px;
+    }
+
+    .nav_top414 {
+        width: 100%;
+        position: absolute;
+        top: 40px;
+        left: 0;
+        position: fixed;
+        z-index: 2000000;
+    }
+
+    .nav_top414>ul {
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    .nav_top414>ul>li {
+        display: block;
+        background-color: rgb(238, 188, 96);
+        padding: 10px;
+        text-align: center;
+        border-bottom: 1px solid #333;
+        flex: 1 1 0%;
+    }
+
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        background-color: white;
+        z-index: 20000;
+        /* border: 5px solid red; */
+        width: 100%;
+    }
+
+    .navtop {
+        position: fixed;
+        background-color: white;
+        z-index: 20000;
+    }
+
+    .nav_top414 a {
+        display: block;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
