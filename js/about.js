@@ -1,19 +1,19 @@
-$(function () {
+// $(function () {
 
 
-    $(function () {
+//     $(function () {
 
 
-        $('.accordion-header').click(function () {
-            $(this).parent().toggleClass('active');
+//         $('.accordion-header').click(function () {
+//             $(this).parent().toggleClass('active');
 
 
-            $(this).next().slideToggle();
-        })
+//             $(this).next().slideToggle();
+//         })
 
 
-    })
+//     })
 
-})
+// })
 
 

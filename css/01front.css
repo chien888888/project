@@ -1,5 +1,5 @@
 body {
-     background: #eee;
+     background: white;
      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
      color: #000;
      margin: 0;
@@ -229,19 +229,7 @@ body {
 
 
 
-/* .navtop {
-     opacity: 1;
-} */
-
-
-
-/* 三條線 */
-i {
-     /* border: 5px solid black; */
-}
-
-
-
+/* ---------------------------------------------- */
 
 
 /* google icon */
@@ -265,7 +253,7 @@ i {
 
 
 
-
+/* ---------------------大圖輪播------------------------ */
 
 
 
@@ -319,62 +307,17 @@ swiper-slide img {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ----------------------------------------------- */
 
 /* 螢幕變成414px寬度後  */
 @media screen and (max-width:414px) {
 
-     body {}
+
 
 
      .google {
           display: flex;
      }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -408,16 +351,6 @@ swiper-slide img {
      } */
 
 
-
-
-
-
-
-     /* 大圖輪播 */
-     .swiper-wrapper img {
-          height: 300px;
-     }
-
      /* 左上角LOGO */
      nav img {
           width: 50px;
@@ -426,10 +359,39 @@ swiper-slide img {
 
 
 
+
+
+
+     /* ------------------------------------------------- */
+
+
+
+     /* 大圖輪播 */
+     .swiper-wrapper img {
+          height: 300px;
+     }
+
+
+     .main1 {
+          display: flex;
+          flex-direction: column;
+          max-width: 1080px;
+          /* border: 1px solid red; */
+          /* padding-left: 10px; */
+
+     }
+
+
+
+
+
+
      /* 圖一 最新消息 圖 */
      .main1 .pic {
           margin-top: 15px;
-
+          width: 50%;
+          /* border: 1px solid red; */
+          margin: 0 auto;
      }
 
 
@@ -440,6 +402,7 @@ swiper-slide img {
           padding-right: 0;
           margin-right: 5px;
           margin-top: 10px;
+
      }
 
 
@@ -453,9 +416,11 @@ swiper-slide img {
           margin-bottom: 80px;
           padding: 10px;
           text-decoration: none;
-          font-size: .5rem;
+          font-size: 20px;
           margin-right: 50px;
-          margin-top: 10px;
+          margin-top: 20px;
+          /* padding-left: 20px; */
+          /* border: 1px solid red; */
      }
 
 
@@ -463,31 +428,72 @@ swiper-slide img {
      .main1 p {
           line-height: 2;
           margin-top: 30px;
-          font-size: .5rem;
+          font-size: 18px;
+          padding-left: 30px;
+          /* border: 1px solid red; */
      }
+
+
+
+
+
+
+     .main2 {
+          display: flex;
+          flex-direction: column;
+          max-width: 1080px;
+          /* border: 1px solid red; */
+          margin-bottom: 20px;
+
+     }
+
+
+
+
 
 
      /* 圖二 關於我們 子層 */
      .main2 .text2 {
-          padding: 20px;
+          /* padding: 20px;
           padding-top: 40px;
           padding-bottom: 10px;
-          font-size: .5rem;
+          font-size: .5rem; */
+
+          padding: 10px;
+          padding-right: 0;
+          /* margin-left: 5px; */
+          margin-top: 10px;
+          /* border: 1px solid red; */
+
      }
 
 
      /* 圖二 關於我們 圖 */
      .main2 img {
-          width: 40%;
-          height: 80%;
+          width: 50%;
+          /* height: 80%; */
           margin: 30px;
           margin-left: 15px;
+          order: 1;
+          display: none;
      }
 
 
      /* 圖二 關於我們 標題 */
      .main2 h2 a {
-          margin-right: 20px;
+          /* margin-right: 20px; */
+
+          background-color: #87CDEB;
+          color: white;
+          width: 20%;
+          text-align: center;
+          margin-bottom: 80px;
+          padding: 10px;
+          text-decoration: none;
+          font-size: 20px;
+          /* margin-left: 10px; */
+          margin-top: 20px;
+          /* border: 1px solid red; */
      }
 
 
@@ -496,8 +502,12 @@ swiper-slide img {
      .main2 p {
           line-height: 1.5;
           margin-top: 30px;
-          font-size: 12px;
-          width: 150px;
+          font-size: 18px;
+          /* border: 1px solid red; */
+          padding-left: 30px;
+
+
+
      }
 
 
@@ -541,9 +551,11 @@ swiper-slide img {
 
 
      /* 圖四 文字內容 父層 */
-     .main4 {}
 
 
+     .main4 {
+          margin-left: 42px;
+     }
 
 
 
@@ -562,35 +574,19 @@ swiper-slide img {
           color: black;
           width: 70%;
           margin-bottom: 20px;
-          font-size: .5rem;
+          font-size: 18px;
+          padding-left: 10px;
      }
 
-
-
-
-
-     /* 圖四 文字內容 內容 */
-     .main4 p {
-          line-height: 1;
-          font-size: 0.5rem;
-     }
 
 
 
      /* 圖四 文字內容 圖 */
      .main4 img {
 
-          width: 30%;
-          height: 100%;
+          width: 40%;
+          /* height: 100%; */
 
-     }
-
-
-
-     /* 圖四 文字內容 標題 */
-     .main4 .text3 h2 {
-          font-size: 0.5rem;
-          padding-left: 10px;
      }
 
 
@@ -598,8 +594,10 @@ swiper-slide img {
 
      /* 圖四 文字內容 內容 */
      .main4 .text3 p {
-          font-size: 0.5rem;
+          font-size: 15px;
           padding-left: 10px;
+          width: 170%;
+          line-height: 1;
      }
 
 
@@ -646,8 +644,8 @@ swiper-slide img {
      .mySwiper .ocean {
           position: relative;
      }
-     
-     
+
+
      .mySwiper .ocean pre {
           position: absolute;
           color: white;
@@ -655,7 +653,22 @@ swiper-slide img {
           right: 200px;
           display: none;
      }
-     
+
+
+
+
+
+
+
+     footer a {
+          display: none;
+     }
+
+
+     footer p {
+          margin-top: 20px;
+          ;
+     }
 
 
 }

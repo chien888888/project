@@ -73,21 +73,18 @@
 
 
         <script>
-
             $(function () {
-                let is_open = 0 ;
-
+                let is_open = 0
                 $(".menu-icon").click(function () {
 
                     $(".nav_top414 ul").slideToggle();
-                    console.log("995喔歆哥");
+                    console.log("text");
 
                 })
             })
-
         </script>
 
-        
+
     </nav>
 
 
@@ -176,37 +173,15 @@
         <a href="./menu.html">菜單介紹</a>
         <a href="./booking.html">線上訂位</a>
         <a href="./store.html">門市資訊</a>
+
+        <p>
+            TEL:(02)2995-0200 ｜ MON - FRI 10:00～17:00 ｜ SAT - SUN 09:00～18:00 <br>
+            本網站為緯育TibaMe前端設計工程師班學員專題作品，本平台僅供學習、展示之用。 
+        </p>
     </footer>
 
 
 
-    <!-- 老師教的 ham -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script>
-        $(function () {
-            // $('.navtop1').slideUp();
-            let is_open = 0;
-            //一開始讓選單縮上去
-
-            //點擊menu後slidedown
-            $('.menu-icon').click(function () {
-
-
-                if (is_open == 0) {
-                    // $('.navbar').css("display","block");
-                    $('.navtop1').slideDown();
-                    is_open = 1;
-                    console.log(is_open);
-                } else {
-                    $('.navtop1').slideUp();
-                    is_open = 0;
-                    console.log(is_open);
-                }
-
-                $('.navbar').slideToggle();
-            })
-        })
-    </script>
 
 
 

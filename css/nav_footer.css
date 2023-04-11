@@ -22,9 +22,15 @@ i {
     opacity: 0;
 }
 
+
+
 nav img {
     width: 100px;
 }
+
+
+
+
 
 .navtop1 {
     display: flex;
@@ -41,21 +47,15 @@ nav img {
 
 
 
-
-
-
-
-
-
-
-
-/* @media screen and (min-width:1200px) {  */
 nav li:hover {
     background-color: #87CDEB;
     /* border-bottom: 3px solid red; */
     height: 3rem;
     padding: 10px;
 }
+
+
+
 
 
 
@@ -68,6 +68,10 @@ nav a {
 
 
 
+
+
+
+
 footer {
     border-top: 1.5px solid black;
     margin-top: 50px;
@@ -75,6 +79,11 @@ footer {
     text-align: center;
 
 }
+
+
+
+
+
 
 footer a {
     margin: 0 20px;
@@ -91,6 +100,10 @@ footer a:hover {
 }
 
 
+
+
+
+
 footer img {
     display: inline-block;
     width: 60px;
@@ -102,10 +115,16 @@ footer img {
 
 footer p {
     text-align: center;
-    margin-top: 60px;
+    margin-top: 40px;
+    line-height: 2;
     /* border: 1px solid black; */
 
 }
+
+
+
+
+
 
 
 /* 414導覽列 PC不需要 */
@@ -125,47 +144,7 @@ footer p {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ========================================================================================== */
-/* ========================================================================================== */
-
+/* ---------------------------------------------- */
 
 
 
@@ -193,7 +172,7 @@ footer p {
 
 
     .menu-icon {
-        background: #eb8d35;
+        background: white;
         padding: 5px;
         display: flex;
         color: #fff;
@@ -211,7 +190,8 @@ footer p {
 
 
     .menu-icon img {
-        width: 45px;
+        width: 30px;
+        padding: 10px;
     }
 
     .nav_top414 {
@@ -230,7 +210,7 @@ footer p {
 
     .nav_top414>ul>li {
         display: block;
-        background-color: rgb(238, 188, 96);
+        background-color: #dcdcdc;
         padding: 10px;
         text-align: center;
         border-bottom: 1px solid #333;

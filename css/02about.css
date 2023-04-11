@@ -8,10 +8,11 @@ body {
 
 
 .top h1 {
-    font-size: 3rem;
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
-    margin-top: 10px;
+    padding-top: 100px;
+      /* border: 1px solid red; */
 }
 
 
@@ -157,6 +158,16 @@ body {
     /* border: 1px solid red; */
 }
 
+
+
+
+
+
+/* ------------------------------------------------ */
+
+
+
+
 /* google icon */
 
 .google {
@@ -180,10 +191,6 @@ body {
 /* ----------------------------------------------- */
 /* 螢幕變成414px寬度後 */
 @media screen and (max-width:414px) {
-    body {
-        /* background-color: red; */
-    }
-
 
     .google {
         display: flex;
@@ -205,14 +212,40 @@ body {
         /* padding-top: px; */
         /* margin-top: 55px; */
         /* padding-top: 55px; */
+        display: block;
         z-index: 2;
         /* z-index: 2;
         background-color: #fff;
         flex-direction: column;
         transform: translateX(100%);
         transition: transform 0.4s ease-in; */
-        display: none;
+
     }
+
+    /* 導覽列 */
+    /* .navtop1 li {
+        opacity: 0;
+   } */
+
+
+
+
+
+    /* 左上角LOGO */
+    nav img {
+        width: 50px;
+    }
+
+
+
+
+
+
+
+
+    /* ---------------------------------------------- */
+
+
 
 
     .main1 {
@@ -241,7 +274,7 @@ body {
 
 
     .text1 {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         padding-left: 80px;
         line-height: 2;
         width: 50%;
@@ -286,7 +319,7 @@ body {
         padding: 20px;
         max-width: 1080px;
         margin: 0 auto;
-        border: 1px solid red;
+        /* border: 1px solid red; */
 
 
 
@@ -300,7 +333,7 @@ body {
         width: 40%;
         margin-right: 10px;
         /* margin-top: 5px; */
-        border: 1px solid red;
+        /* border: 1px solid red; */
 
     }
 
@@ -313,10 +346,10 @@ body {
     .main2 .main2-right {
         width: 40%;
     }
-    
+
     .main2 .main2-right img {
         width: 100%;
-       
+
     }
 
 
@@ -331,7 +364,7 @@ body {
         margin-bottom: 30px;
         line-height: 1.4;
         padding-left: 0;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         /* text-align: center; */
     }
 
@@ -352,6 +385,18 @@ body {
     }
 
 
+
+
+
+    footer a {
+        display: none;
+   }
+
+
+   footer p {
+        margin-top:20px;
+        ;
+   }
 
 
 }
