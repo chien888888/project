@@ -1,7 +1,13 @@
 body {
-    background-color: white;
+    background: white;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+
 }
+
+
 
 
 /* 線上訂位 大標題 */
@@ -9,7 +15,7 @@ body {
     font-size: 40px;
     text-align: center;
     font-weight: bold;
-    margin-top: 10px;
+   
 }
 
 
@@ -219,7 +225,6 @@ body {
     /* ------------------------------------------ */
 
 
-
     /* 線上訂位 大標題 */
     .top h1 {
         font-size: 30px;
@@ -227,7 +232,8 @@ body {
         font-weight: bold;
         margin: 0;
         padding-top: 100px;
-        border: 1px solid black;
+        margin-bottom: 10px;
+        /* border: 1px solid black; */
     }
 
 
@@ -309,7 +315,7 @@ body {
         /* border: 1px solid red; */
         width: 70%;
         line-height: 1;
-        font-size: 1.5rem;
+        font-size: 15px;
         margin: 0 auto;
         padding-left: 50px;
 
@@ -352,13 +358,13 @@ body {
 
     footer a {
         display: none;
-   }
+    }
 
 
-   footer p {
-        margin-top:20px;
+    footer p {
+        margin-top: 20px;
         ;
-   }
+    }
 
 
 
